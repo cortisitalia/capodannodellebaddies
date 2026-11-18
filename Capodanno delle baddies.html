@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Capodanno 2027 🎆</title>
+<style>
+:root{color-scheme:dark;--bg:#000;--card:#0d0d14cc;--tx:#fff6e8;--mu:#b9b3cc;--gold:#ffd24a;--pink:#ff4fa3;--cy:#4fe3ff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:#000;color:var(--tx);font-family:"Trebuchet MS",system-ui,sans-serif;line-height:1.5}
+#fw{position:fixed;inset:0;width:100%;height:100%;z-index:0}
+.w{position:relative;z-index:1;max-width:980px;margin:auto;padding:0 18px 60px}
+header{text-align:center;padding:50px 0 18px}
+h1{font-family:Impact,"Arial Black",sans-serif;font-size:clamp(2.6rem,10vw,5.5rem);margin:0;letter-spacing:3px;line-height:1;background:linear-gradient(90deg,var(--gold),var(--pink),var(--cy));-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 14px #ff4fa388)}
+.sub{color:var(--mu)}
+.cd{display:flex;gap:10px;justify-content:center;margin:20px 0;flex-wrap:wrap}
+.cd div{background:var(--card);border:2px solid var(--gold);border-radius:14px;padding:8px 14px;min-width:72px;box-shadow:0 0 18px #ffd24a55}
+.cd b{display:block;font-size:1.9rem;color:var(--gold)}.cd span{font-size:.7rem;color:var(--mu);text-transform:uppercase}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:3;display:flex;gap:8px;overflow-x:auto;padding:10px 0;background:#000000d9;backdrop-filter:blur(6px)}
+nav a{flex:none;color:var(--tx);text-decoration:none;border:1px solid #ffffff33;border-radius:99px;padding:6px 14px;font-size:.88rem}
+nav a:hover{background:var(--pink);border-color:var(--pink)}
+h2{font-family:Impact,sans-serif;letter-spacing:1px;font-size:1.8rem;margin:42px 0 6px;color:var(--gold);text-shadow:0 0 12px #ffd24a66}
+.lead{color:var(--mu);margin:0 0 14px;font-size:.92rem}
+.tl{border-left:3px solid var(--pink);margin-left:8px;padding-left:20px}
+.day{position:relative;background:var(--card);border:1px solid #ffffff1f;border-radius:16px;padding:14px 16px;margin-bottom:14px}
+.day:before{content:"";position:absolute;left:-30px;top:20px;width:14px;height:14px;border-radius:50%;background:var(--pink);box-shadow:0 0 10px var(--pink)}
+.day.big{border-color:var(--gold);box-shadow:0 0 24px #ffd24a40}.day.big:before{background:var(--gold);box-shadow:0 0 12px var(--gold)}
+.day h3{margin:0 0 6px;color:var(--cy)}.day h3 small{color:var(--mu);font-weight:normal}
+.row{display:flex;gap:10px;padding:5px 0}.row b{flex:none;width:78px;color:var(--gold);font-size:.85rem;padding-top:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid #ffffff1f;border-radius:16px;padding:14px 18px}
+.card h3{margin:0 0 6px}
+.item{display:flex;gap:10px;padding:8px 0;border-bottom:1px dashed #ffffff22;cursor:pointer}
+.item:last-child{border:0}
+.item i{flex:none;width:22px;height:22px;border:2px solid var(--pink);border-radius:6px;margin-top:2px;display:grid;place-items:center;font-style:normal;font-size:14px}
+.item.done i{background:var(--pink)}.item.done i:after{content:"✓"}
+.item.done span{opacity:.5;text-decoration:line-through}
+.item em{display:block;color:var(--mu);font-size:.84rem;font-style:normal}
+.note{color:var(--mu);font-size:.85rem;text-align:center;margin-top:40px}
+</style></head><body>
+<canvas id="fw"></canvas>
+<div class="w">
+<header>
+<div style="font-size:2.6rem">🎆🥂🎇</div>
+<h1>CAPODANNO<br>2027</h1>
+<p class="sub">30 dicembre → 5 gennaio · il programma ufficiale 💅</p>
+<div class="cd" id="cd"></div>
+</header>
+<nav><a href="#prog">📅 Programma</a><a href="#cibo">🍕 Cibo</a><a href="#drink">🍋 Drink</a><a href="#giochi">🎲 Giochi</a><a href="#kpop">🎤 K-pop</a><a href="#console">🎮 Console</a><a href="#out">🎳 Uscite</a></nav>
+
+<h2 id="prog">📅 Programma</h2>
+<p class="lead">Cosa è già fissato, giorno per giorno.</p>
+<div class="tl">
+<div class="day"><h3>30 dicembre <small>· mercoledì</small></h3><div class="row"><b>Sera</b><div>🍝 Carbonarata</div></div></div>
+<div class="day big"><h3>31 dicembre ✨ <small>· giovedì</small></h3>
+<div class="row"><b>Cena</b><div>🍕 Pizza fatta in casa</div></div>
+<div class="row"><b>Dopo cena</b><div>🐉 Drago alcolico · 🤫 Whisper challenge · 🎭 Doppiaggio</div></div>
+<div class="row"><b>Mezzanotte</b><div>🍇 Uva sotto il tavolo + 🍋 Gin lemon</div></div></div>
+<div class="day"><h3>1 gennaio <small>· venerdì</small></h3><div class="row"><b>Colazione</b><div>🥞 Pancake</div></div><div class="row"><b>Pranzo</b><div>🧀 Lasagne</div></div><div class="row"><b>Dopo</b><div>🥐 Sofficini crispy McBacon</div></div></div>
+<div class="day"><h3>2 → 5 gennaio <small>· da decidere</small></h3><div class="row"><b>Idee</b><div>🎳 Parma: Wappie bowling + Smashie · 🎤 K-pop · 🎮 Switch · 🥽 VR · 🎲 Giochi da tavolo</div></div></div>
+</div>
+
+<h2 id="cibo">🍕 Cibo</h2>
+<div class="grid"><div class="card"><div id="l-cibo"></div></div></div>
+<h2 id="drink">🍋 Drink &amp; Tradizioni</h2>
+<div class="grid"><div class="card"><div id="l-drink"></div></div></div>
+<h2 id="giochi">🎲 Giochi</h2>
+<div class="grid"><div class="card"><h3>Pronti</h3><div id="l-g1"></div></div><div class="card"><h3>Da creare ✏️</h3><div id="l-g2"></div></div></div>
+<h2 id="kpop">🎤 K-pop</h2>
+<div class="grid"><div class="card"><div id="l-kpop"></div></div></div>
+<h2 id="console">🎮 Console &amp; VR</h2>
+<div class="grid"><div class="card"><div id="l-con"></div></div></div>
+<h2 id="out">🎳 Uscite</h2>
+<p class="lead">Parma Promenade</p>
+<div class="grid"><div class="card"><div id="l-out"></div></div></div>
+<p class="note">Tocca le caselle per spuntare quello che è già pronto 💖</p>
+</div>
+<script>
+const L={
+cibo:[["Carbonarata","30 dic · sera"],["Pizza fatta in casa","31 dic · cena"],["Pancake","1 gen · colazione"],["Lasagne","1 gen · pranzo"],["Sofficini crispy McBacon","spuntino"]],
+drink:[["Gin lemon","da preparare"],["Uva sotto il tavolo","a mezzanotte 🍇"]],
+g1:[["Whisper challenge",""],["Gioco del doppiaggio",""],["Giochi da tavolo",""]],
+g2:[["Drago alcolico","gioco dell’oca con caselle da bere 🐉"],["Altri giochini","idee da inventare"]],
+kpop:[["Indovina la canzone dalla base","content K-pop stile YouTube"]],
+con:[["VR","per vedere Tricky House degli Xikers 🥽"],["Nintendo Switch","giocare tutte insieme"],["Wii","ma solo dal padre 😂"]],
+out:[["Wappie bowling","🎳"],["Mangiare da Smashie","🍔"]]};
+for(const k in L){const e=document.getElementById("l-"+k);L[k].forEach(([t,s])=>{const d=document.createElement("div");d.className="item";d.innerHTML=`<i></i><div><span>${t}</span>${s?`<em>${s}</em>`:""}</div>`;d.onclick=()=>d.classList.toggle("done");e.appendChild(d)})}
+function tick(){let n=new Date(),t=new Date(n.getFullYear()+(n.getMonth()==0&&n.getDate()<6?0:1),0,1)-n;t=Math.max(t,0);let h="";for(const[l,m]of[["giorni",864e5],["ore",36e5],["min",6e4],["sec",1e3]]){h+=`<div><b>${String(Math.floor(t/m)).padStart(2,"0")}</b><span>${l}</span></div>`;t%=m}document.getElementById("cd").innerHTML=h}
+tick();setInterval(tick,1000);
+const cv=document.getElementById("fw"),x=cv.getContext("2d");let W,H,P=[],R=[];
+function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight}rs();addEventListener("resize",rs);
+const C=[45,330,190,280,15,120];
+function boom(px,py){const h=C[Math.random()*6|0],n=60+Math.random()*40|0;for(let i=0;i<n;i++){const a=Math.PI*2*i/n,s=1+Math.random()*3.6;P.push({x:px,y:py,vx:Math.cos(a)*s,vy:Math.sin(a)*s,l:1,h})}}
+function launch(){R.push({x:W*(.1+Math.random()*.8),y:H,ty:H*(.1+Math.random()*.4),v:-7-Math.random()*3})}
+addEventListener("pointerdown",e=>boom(e.clientX,e.clientY));
+setInterval(launch,900);launch();
+(function f(){x.fillStyle="rgba(0,0,0,.2)";x.fillRect(0,0,W,H);
+R=R.filter(r=>{r.y+=r.v;r.v*=.985;x.fillStyle="#fff";x.fillRect(r.x,r.y,2,6);if(r.y<=r.ty||r.v>-1.5){boom(r.x,r.y);return false}return true});
+P=P.filter(p=>{p.x+=p.vx;p.y+=p.vy;p.vy+=.04;p.vx*=.985;p.vy*=.985;p.l-=.011;if(p.l<=0)return false;x.fillStyle=`hsla(${p.h},100%,60%,${p.l})`;x.beginPath();x.arc(p.x,p.y,1.8,0,7);x.fill();return true});
+requestAnimationFrame(f)})();
+</script></body></html>
